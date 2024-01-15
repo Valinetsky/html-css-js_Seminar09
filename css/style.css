@@ -22,7 +22,9 @@ img {
 	border: none;
 }
 
-
+form {
+	all: unset;
+}
 
 .parent__info {
 	position: relative;
@@ -364,15 +366,52 @@ body {
 	line-height: 167.2%;
 }
 
+.subscribe__item {
+	display: flex;
+	flex-direction: column;
+}
+
+/* .subscribe__image {
+	height: 100%;
+} */
+
 .subscribe__header {
 	font-weight: 700;
 	font-size: 24px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .subscribe__subheader {
 	font-size: 18px;
 	text-align: center;
+}
+
+.subscribe__form {
+	padding: 10px;
+	border-radius: 10px;
+
+
+	background: #E1E1E1;
+
+
+
+
+
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;
+
+
+
+
+
+	color: #222224;
+
+	opacity: 0.67;
 }
 
 .fbc {
@@ -381,7 +420,7 @@ body {
 
 }
 
-.subscribe__container {}
+
 
 @media screen and (max-width: 1024px) {
 	.center {
