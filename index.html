@@ -12,49 +12,120 @@
         />
         <link rel="stylesheet" href="css/style.css" />
     </head>
-
     <body>
-        <div class="nav">
+        <nav class="nav">
             <div class="nav__container center">
                 <div class="nav__left">
-                    <a class="nav__lefticons" href="#">
+                    <a class="nav__icons" href="#">
                         <img src="img/nav_left_logo.png" alt="nav_left_logo" />
                     </a>
-                    <a class="nav__lefticons" href="#">
+                    <a class="nav__icons" href="#">
                         <img src="img/nav_left_icon.svg" alt="nav_left_icon" />
                     </a>
                 </div>
-                <div class="nav__right parent__info">
+                <div class="nav__right">
+                    <div class="burger">
+                        <details>
+                            <summary>
+                                <img
+                                    class="nav__righticons"
+                                    src="img/nav_right_icon01.svg"
+                                    alt="nav_right_icon01"
+                                />
+                            </summary>
+                            <div class="details__box">
+                                <h2 class="topmenu">MENU</h2>
+                                <ul>
+                                    <li class="topmenu__person">
+                                        <a href="#">MAN</a>
+                                        <ul>
+                                            <li class="topmenu__item">
+                                                <a href="#">Accessories</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">Bags</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">Denim</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">T-Shirts</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="topmenu__person">
+                                        <a href="#">WOMAN</a>
+                                        <ul>
+                                            <li class="topmenu__item">
+                                                <a href="#">Accessories</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">Jackets & Coats</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">Polos</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">T-Shirts</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">Shirts</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="topmenu__person">
+                                        <a href="#">KIDS</a>
+                                        <ul>
+                                            <li class="topmenu__item">
+                                                <a href="#">Accessories</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">Jackets & Coats</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">Polos</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">T-Shirts</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">Shirts</a>
+                                            </li>
+                                            <li class="topmenu__item">
+                                                <a href="#">Bags</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </details>
+                    </div>
                     <a class="nav__righticons" href="#">
                         <img
-                            class="nav__righticons"
-                            src="img/nav_right_icon01.svg"
-                            alt="nav_right_icon01"
-                        />
-                    </a>
-                    <a class="nav__righticons" href="#">
-                        <img
-                            class="nav__righticons hidemobile"
+                            class="nav__icons hidemobile"
                             src="img/nav_right_icon02.svg"
                             alt="nav_right_icon02"
                         />
                     </a>
-                    <a class="nav__righticons info hidemobile" href="#">
+                    <a
+                        class="nav__righticons parent parent__info hidemobile"
+                        href="#"
+                    >
                         <img
-                            class="nav__righticons"
+                            class="nav__icons"
                             src="img/nav_right_icon03.svg"
                             alt="nav_right_icon03"
                         />
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="brand">
+        </nav>
+        <section class="brand">
             <div class="brand__img hidemobile">
                 <img class="picture" src="img/brand.png" alt="brand picture" />
             </div>
-            <div class="brand__logo">
-                <div class="logo__box">
+            <div class="brand__logo fb">
+                <div class="logo__box fb">
                     <div class="logo__rectangle"></div>
                     <div class="logo__textbox">
                         <div class="logo__header">The brand</div>
@@ -67,8 +138,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="overview center">
+        </section>
+        <section class="overview center">
             <div class="overview__card overview__card_01">
                 <div class="overview__subtitle text__center">30% off</div>
                 <div class="overview__title text__center">for women</div>
@@ -87,8 +158,8 @@
                 </div>
                 <div class="overview__title text__center">accesories</div>
             </div>
-        </div>
-        <div class="goods center">
+        </section>
+        <section class="goods center">
             <div class="goods__header text__center">Fetured Items</div>
             <div class="goods__subheader text__center">
                 Shop for items based on what we featured in this week
@@ -220,89 +291,85 @@
                     >Browse All&nbspProduct</a
                 >
             </div>
-        </div>
-        <section>
-            <div class="operation">
-                <div class="operation__container center">
-                    <div class="operation__item">
-                        <img
-                            class="operation__icon"
-                            src="img/operating_icon01.svg"
-                            alt="operating_icon01"
-                        />
-                        <div class="operation__header text__center">
-                            Free Delivery
-                        </div>
-                        <p class="operation__text">
-                            Worldwide delivery on all. Authorit tively morph
-                            next-generation innov tion with extensive models.
-                        </p>
+        </section>
+        <section class="operation">
+            <div class="operation__container center">
+                <div class="operation__item">
+                    <img
+                        class="operation__icon"
+                        src="img/operating_icon01.svg"
+                        alt="operating_icon01"
+                    />
+                    <div class="operation__header text__center">
+                        Free Delivery
                     </div>
-                    <div class="operation__item">
-                        <img
-                            class="operation__icon"
-                            src="img/operating_icon02.svg"
-                            alt="operating_icon02"
-                        />
-                        <div class="operation__header text__center">
-                            Sales & discounts
-                        </div>
-                        <p class="operation__text">
-                            Worldwide delivery on all. Authorit tively morph
-                            next-generation innov tion with extensive models.
-                        </p>
+                    <p class="operation__text">
+                        Worldwide delivery on all. Authorit tively morph
+                        next-generation innov tion with extensive models.
+                    </p>
+                </div>
+                <div class="operation__item">
+                    <img
+                        class="operation__icon"
+                        src="img/operating_icon02.svg"
+                        alt="operating_icon02"
+                    />
+                    <div class="operation__header text__center">
+                        Sales & discounts
                     </div>
-                    <div class="operation__item">
-                        <img
-                            class="operation__icon"
-                            src="img/operating_icon03.svg"
-                            alt="operating_icon03"
-                        />
-                        <div class="operation__header text__center">
-                            Quality assurance
-                        </div>
-                        <p class="operation__text">
-                            Worldwide delivery on all. Authorit tively morph
-                            next-generation innov tion with extensive models.
-                        </p>
+                    <p class="operation__text">
+                        Worldwide delivery on all. Authorit tively morph
+                        next-generation innov tion with extensive models.
+                    </p>
+                </div>
+                <div class="operation__item">
+                    <img
+                        class="operation__icon"
+                        src="img/operating_icon03.svg"
+                        alt="operating_icon03"
+                    />
+                    <div class="operation__header text__center">
+                        Quality assurance
                     </div>
+                    <p class="operation__text">
+                        Worldwide delivery on all. Authorit tively morph
+                        next-generation innov tion with extensive models.
+                    </p>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="subscribe">
-                <div class="subscribe__container center">
-                    <div class="subscribe__comment">
-                        <img
-                            class="subscribe__image"
-                            src="img/subscribeimg.png"
-                            alt="subscribe__img"
+        <section class="subscribe">
+            <div class="subscribe__container center">
+                <div class="subscribe__comment">
+                    <img
+                        class="subscribe__image"
+                        src="img/subscribeimg.png"
+                        alt="subscribe__img"
+                    />
+                    <p class="subscribe__icontext text__center">
+                        “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a&nbsppulvinar purus condimentum“
+                    </p>
+                </div>
+                <div class="subscribe__form">
+                    <h5 class="subscribe__header">Subscribe</h5>
+                    <h6 class="subscribe__subheader">
+                        FOR OUR NEWLETTER AND PROMOTION
+                    </h6>
+                    <form class="form" action="" method="get">
+                        <input
+                            type="text"
+                            class="subscribe__mail"
+                            placeholder="Enter Your email"
+                            name="mail"
+                            required
                         />
-                        <p class="subscribe__icontext text__center">
-                            “Vestibulum quis porttitor dui! Quisque viverra nunc
-                            mi, a&nbsppulvinar purus condimentum“
-                        </p>
-                    </div>
-                    <div class="subscribe__form fbc">
-                        <h5 class="subscribe__header">Subscribe</h5>
-                        <h6 class="subscribe__subheader">
-                            FOR OUR NEWLETTER AND PROMOTION
-                        </h6>
-                        <form class="form" action="" method="get">
-                            <input
-                                type="text"
-                                class="subscribe__mail"
-                                placeholder="Enter Your email"
-                                name="mail"
-                                required
-                            />
-                            <input
-                                type="submit"
-                                value="Subscribe"
-                                class="subscribe__button"
-                            />
-                        </form>
-                    </div>
+                        <input
+                            type="submit"
+                            value="Subscribe"
+                            class="subscribe__button"
+                        />
+                    </form>
                 </div>
             </div>
         </section>

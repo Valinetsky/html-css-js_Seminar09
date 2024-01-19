@@ -191,7 +191,9 @@ details[open] summary p {
 
 
 
-
+details[open] summary p {
+	display: block;
+}
 
 
 
