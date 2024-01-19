@@ -178,6 +178,7 @@ details[open] .details__box {
 }
 
 .topmenu__person a {
+
 	line-height: 2;
 	color: #F16D7F;
 	margin-bottom: 12px;
@@ -188,14 +189,15 @@ details[open] .details__box {
 }
 
 .topmenu__item a {
+	display: block;
 	line-height: 1;
 	color: #6F6E6E;
-	padding-bottom: 11px;
+
 	padding-left: 22px;
 }
 
-.topmenu__item:last-child {
-	padding-bottom: 0;
+.topmenu__item:last-child a {
+	margin-bottom: 0;
 }
 
 .brand {
@@ -589,6 +591,13 @@ footer {
 		margin-top: 65px;
 		margin-bottom: 96px;
 	}
+
+	.subscribe__container {
+		padding-top: 64px;
+		padding-bottom: 140px;
+		gap: 58px;
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 1024px) {
@@ -652,12 +661,7 @@ footer {
 			url(../img/subscribe_bg.png) bottom left -350px/cover no-repeat;
 	}
 
-	.subscribe__container {
-		padding-top: 64px;
-		padding-bottom: 140px;
-		gap: 58px;
-		justify-content: center;
-	}
+
 
 	.footer__container {
 		padding-left: 32px;
@@ -771,6 +775,11 @@ footer {
 		gap: 75px;
 	}
 
+	.form {
+		width: 341px;
+
+	}
+
 	.footer__container {
 		padding-top: 43px;
 		padding-bottom: 9px;
@@ -778,6 +787,4 @@ footer {
 		gap: 40px;
 
 	}
-
-
 }
