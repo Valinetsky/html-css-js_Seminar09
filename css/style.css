@@ -200,6 +200,29 @@ details[open] .details__box {
 	margin-bottom: 0;
 }
 
+.parent {
+	position: relative;
+}
+
+.parent__info:after {
+	content: "5";
+	position: absolute;
+	top: -8px;
+	right: -9px;
+
+	width: 19px;
+	height: 19px;
+
+	background: #F16D7F;
+	color: white;
+
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+
+	border-radius: 10px;
+}
+
 .brand {
 	background-color: #F1E4E6;
 	display: flex;
