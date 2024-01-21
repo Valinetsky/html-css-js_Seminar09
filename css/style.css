@@ -208,6 +208,11 @@ details[open] .details__box {
 
 .brand__img {
 	width: 100%;
+	display: flex;
+}
+
+.picture {
+	margin: 0 auto;
 }
 
 .brand__img img {
@@ -340,8 +345,11 @@ details[open] .details__box {
 
 .icon {
 	display: inline-block;
+	-webkit-mask-image: url(../img/nav_right_icon03.svg);
 	mask-image: url(../img/nav_right_icon03.svg);
+	-webkit-mask-size: contain;
 	mask-size: contain;
+	-webkit-mask-repeat: no-repeat;
 	mask-repeat: no-repeat;
 	width: 26px;
 	height: 26px;
